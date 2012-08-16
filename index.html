@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="fr">
 	<head>
 		<title>Marketing Myself - Home</title>
 		
@@ -15,6 +15,7 @@
 		
 		<script src="js/libs/less-1.3.0.min.js"></script>
 		<script src="js/libs/modernizr-2.5.3.min.js"></script>
+		<script src="js/libs/mustache.js"></script>
 		<script src="js/libs/jquery-1.7.2.min.js"></script>
 		<script src="js/libs/jquery-mobile/jquery.mobile-1.1.1.min.js"></script>
 		<script src="js/script.js"></script>
@@ -25,31 +26,16 @@
 			Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.
 		</p>
 		<![endif]-->
-		<div data-role="page"> 
-			<header data-role="header">
+		<div id="page" data-role="page"> 
+			<header id="page-header" data-role="header">
 				<h1>Brice Argenson</h1>
 			</header>
 
 			<div role="main" data-role="content">
-				<nav>
-					<ul data-role="listview">
-						<li>
-							<a href="experiences.html">Experiences</a>
-						</li>
-						<li>
-							<a href="education.html">Formations</a>
-						</li>
-						<li>
-							<a href="skills.html">Compétences</a>
-						</li>
-						<li>
-							<a href="certifications.html">Certifications</a>
-						</li>
-					</ul>
-				</nav>
+				
 			</div>
 			
-			<footer data-role="footer">
+			<footer data-role="footer" data-position="fixed">
 				<div data-role="navbar" data-grid="d" role="navigation">
 					<ul class="ui-grid-d">
 						<li>
@@ -68,12 +54,12 @@
 							</a>
 						</li>
 						<li>
-							<a id="slideshare" href="#" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true">
+							<a id="slideshare" href="http://www.slideshare.net/bargenson" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true">
 								SlideShare
 							</a>
 						</li>
 						<li>
-							<a id="google" href="#" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true">
+							<a id="google" href="http://www.google.fr/search?q=Brice+Argenson" data-icon="custom" data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="span" data-iconpos="top" data-inline="true">
 								Google me
 							</a>
 						</li>

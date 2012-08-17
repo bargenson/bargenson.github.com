@@ -14,7 +14,7 @@
         Hardeep Shoker 
     </author>
 
-    <preference name="android-maxSdkVersion" value="7" />
+    <preference name="android-minSdkVersion" value="7" />
     <preference name="permissions" value="none"/>
 
     <icon src="icons/tux-link.png" />

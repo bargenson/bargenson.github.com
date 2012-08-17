@@ -25,7 +25,7 @@ var APP = {
 			$("div[role='main']").html(page);
 			$("#page").page('destroy').page();
 			$.mobile.hidePageLoadingMsg();
-		});
+		}, "html");
 	}
 };
 

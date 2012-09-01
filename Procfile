@@ -1,1 +1,1 @@
-web:
+web: echo "Website deployed"

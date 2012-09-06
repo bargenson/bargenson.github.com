@@ -9,6 +9,10 @@
 	width: inherit;
 }
 
+#experiences article p em {
+	text-decoration: underline;
+}
+
 body footer {
 	text-align: center;
 }

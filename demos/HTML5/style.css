@@ -1,0 +1,42 @@
+header {
+	text-align: center;
+}
+
+body > section {
+	width: 48%;
+	float: left;
+}
+
+#timeline {
+	border-radius: 10px;
+	background-color: #EEEEEE;
+}
+
+#favorites {
+	border-radius: 10px;
+	background-color: lightgreen;
+}
+
+#favorites .tweets {
+	min-height: 100px;
+}
+
+section > .tweets {
+	overflow: auto;
+	max-height: 80%;
+}
+
+.tweet {
+	margin: 10px;
+	padding: 10px;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+.tweet section {
+	padding: 10px;
+}
+
+.tweet footer {
+	font-style: italic;
+}

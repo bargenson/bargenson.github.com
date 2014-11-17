@@ -30,8 +30,8 @@ var APP = {
 };
 
 $(document).ready( function(event) {
-	
-	APP.initContent();
+	document.location = $("#resume").attr("href");
+	/*APP.initContent();
 	
 	$(document).on("click", "a", function(event) {
 		var hash = $(this).attr("href");
@@ -43,5 +43,5 @@ $(document).ready( function(event) {
 
 	$(window).hashchange(function() {
 		APP.initContent();
-	});
+	});*/
 });

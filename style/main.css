@@ -40,6 +40,10 @@ footer .ui-navbar li .ui-btn-icon-top .ui-btn-inner {
 	padding-top: 32px;
 }
 
+#cv .ui-icon-custom {
+	background-image: url('../img/pdf.ico.png');
+}
+
 #mail .ui-icon-custom {
 	background-image: url('../img/mail_ico.png');
 }
@@ -56,6 +60,3 @@ footer .ui-navbar li .ui-btn-icon-top .ui-btn-inner {
 	background-image: url('../img/slideshare_ico.png');
 }
 
-#google .ui-icon {
-	background-image: url('../img/google_ico.png');
-}

@@ -30,7 +30,7 @@ var APP = {
 };
 
 $(document).ready( function(event) {
-	document.location = $("#resume").attr("href");
+	//document.location = $("#resume").attr("href");
 	/*APP.initContent();
 	
 	$(document).on("click", "a", function(event) {
